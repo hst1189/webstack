@@ -1,25 +1,30 @@
         <footer class="main-footer footer-type-1 text-xs">
             <div id="footer-tools" class="d-flex flex-column">
-                <a href="javascript:" id="go-to-up" class="btn rounded-circle go-up m-1" rel="go-top">
+                
+                <!-- 回页首  -->
+                <a href="javascript:" data-toggle="modal" id="go-to-up" class="btn rounded-circle go-up m-1" rel="go-top" title="Back to Top">
                     <i class="iconfont icon-to-up"></i>
                 </a>
-                <!-- 右下角搜索  -->
-                <a href="javascript:" data-toggle="modal" data-target="#search-modal" class="btn rounded-circle m-1"
-                    rel="search" one-link-mark="yes">
+                
+                <!-- 搜索
+                <a href="javascript:" data-toggle="modal" data-target="#search-modal" class="btn rounded-circle m-1" rel="search" one-link-mark="yes" title="Search">
                     <i class="iconfont icon-search"></i>
                 </a>
-                <a href="https://www.yuque.com/shenweiyan" class="btn rounded-circle kefu m-1" target="_blank" data-toggle="tooltip" data-placement="left" title="联系我们">
+                -->
+                
+                <!-- 联系我
+                <a href="https://www.xxoo.com/" class="btn rounded-circle kefu m-1" target="_blank" data-toggle="modal" data-placement="left" title="Contact me">
                     <i class="mode-ico iconfont icon-qq"></i>
                 </a>
-                <!-- 右下角搜索 end -->
+                -->
+                
+                <!-- 模式切换  -->
                 {{ if $.Site.Params.nightMode }} 
-                <a href="javascript:" onclick="window.location.href='javascript:switchNightMode()'" class="btn rounded-circle switch-dark-mode m-1" id="yejian"
-                    data-toggle="tooltip" data-placement="left" title="夜间模式">
+                <a href="javascript:" onclick="window.location.href='javascript:switchNightMode()'" class="btn rounded-circle switch-dark-mode m-1" id="yejian" data-toggle="modal" data-placement="left" title="模式切换">
                     <i class="mode-ico iconfont icon-light"></i>
                 </a>
-		{{ else }}
-		<a href="javascript:" onclick="window.location.href='javascript:switchNightMode()'" class="btn rounded-circle switch-dark-mode m-1" id="yejian"
-                    data-toggle="tooltip" data-placement="left" title="日间模式">
+                {{ else }}
+                <a href="javascript:" onclick="window.location.href='javascript:switchNightMode()'" class="btn rounded-circle switch-dark-mode m-1" id="yejian" data-toggle="modal" data-placement="left" title="模式切换">
                     <i class="mode-ico iconfont icon-night"></i>
                 </a>
                 {{ end }}

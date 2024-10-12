@@ -1,0 +1,27 @@
+- item: Home
+  icon: fa fa-home
+  link: ""
+
+- item: 予備１
+  icon: fa fa-book
+  link: ""
+      
+- item: 予備２
+  icon: fa fa-book
+  link: ""
+
+- item: 予備３
+  icon: fa fa-book
+  link: ""
+
+- item: 予備４
+  icon: fa fa-book
+  link: ""
+  list:
+    - name: メニュー１
+      url: #
+    - name: メニュー２
+      url: #
+    - name: メニュー３
+      url: #
+

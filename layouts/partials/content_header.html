@@ -5,10 +5,8 @@
                 <div class="container-fluid p-0">
 
                     <a href="" class="navbar-brand d-md-none" title="{{ .Site.Title }}">
-                        <img src="{{ absURL $.Site.Params.images.logoCollapseLight }}" class="logo-light"
-                            alt="{{ .Site.Title }}">
-                        <img src="{{ absURL $.Site.Params.images.logoCollapseDark }}" class="logo-dark d-none"
-                            alt="{{ .Site.Title }}">
+                        <img src="{{ absURL $.Site.Params.images.logoCollapseLight }}" class="logo-light" alt="{{ .Site.Title }}">
+                        <img src="{{ absURL $.Site.Params.images.logoCollapseDark }}" class="logo-dark d-none" alt="{{ .Site.Title }}">
                     </a>
 
                     <div class="collapse navbar-collapse order-2 order-md-1">
@@ -25,20 +23,20 @@
                         </div>
 
                         <ul class="navbar-nav site-menu" style="margin-right: 16px;">
-                        {{ range .Site.Data.headers }}
-			<li {{ if .list }}class="menu-item-has-children"{{ end }}>
-				<a href="{{ .link }}">
+                            {{ range .Site.Data.headers }}
+                            <li {{ if .list }}class="menu-item-has-children"{{ end }}>
+                                <a href="{{ .link }}">
                                     <i class="{{ .icon }} fa-lg mr-2"></i>
                                     <span>{{ .item }}</span>
                                 </a>
-				<ul class="sub-menu">
-				{{ range .list }}
-				    <li><a href="{{ .url }}">{{ .name }}</a></li>
-				{{ end }}
-				</ul>
-			    </li>
-			{{ end }}
-			</ul>
+                                <ul class="sub-menu">
+                                    {{ range .list }}
+                                    <li><a href="{{ .url }}">{{ .name }}</a></li>
+                                    {{ end }}
+                                </ul>
+                            </li>
+                            {{ end }}
+                        </ul>
 
                         {{ if not (eq $.Site.Params.qweather.key "") }}
                         <div class="rounded-circle weather">
@@ -74,7 +72,7 @@
                     <ul class="nav navbar-menu text-xs order-1 order-md-2">
                         <!-- 一言 -->
                         {{ with .Site.Params.yiyan }}
-                        <li class="nav-item mr-3 mr-lg-0 d-none d-lg-block">
+                        <li class="nav-item mr-2 mr-lg-0 d-none d-lg-block">
                             <script>
                                 fetch('https://v1.hitokoto.cn')
                                     .then(response => response.json())
@@ -89,14 +87,15 @@
                         </li>
                         {{ end }}
                         <!-- 一言 end -->
+                        <!--
                         <li class="nav-search ml-3 ml-md-4">
-                            <a href="javascript:" data-toggle="modal" data-target="#search-modal"><i
-                                    class="iconfont icon-search icon-2x"></i></a>
+                            <a href="javascript:" data-toggle="modal" data-target="#search-modal"><i class="iconfont icon-search icon-2x"></i></a>
                         </li>
+                        
                         <li class="nav-item d-md-none mobile-menu ml-3 ml-md-4">
-                            <a href="javascript:" id="sidebar-switch" data-toggle="modal"
-                                data-target="#sidebar"><i class="iconfont icon-classification icon-2x"></i></a>
+                            <a href="javascript:" id="sidebar-switch" data-toggle="modal" data-target="#sidebar"><i class="iconfont icon-classification icon-2x"></i></a>
                         </li>
+                        -->
                     </ul>
                 </div>
             </div>
