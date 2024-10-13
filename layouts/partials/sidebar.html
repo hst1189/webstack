@@ -16,8 +16,8 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
                 font-family: sans-serif,helvetica, arial;
-                font-weight: 900;
-                color: #FFFAFA;
+                font-weight: 1000;
+                color: #0099FF;
                 letter-spacing: 0.2em
             }
 
@@ -27,7 +27,7 @@
                 display: block;
                 width: 15px;
                 height: 15px;
-                background: #FFFAFA;
+                background: #0099FF;
                 position: absolute;
                 animation: load .7s infinite alternate ease-in-out
             }
@@ -70,8 +70,8 @@
         <div id="sidebar" class="sticky sidebar-nav fade mini-sidebar" style="width: 60px;">
         {{ end }}
             <div class="modal-dialog h-100 sidebar-nav-inner">
+                <!-- logo -->
                 <div class="sidebar-logo border-bottom border-color">
-                    <!-- logo -->
                     <div class="logo overflow-hidden">
                         <a href="" class="logo-expanded">
                             <img src="{{ absURL $.Site.Params.images.logoExpandLight }}" height="40" class="logo-light" alt="{{ .Site.Title }}">
@@ -82,8 +82,9 @@
                             <img src="{{ absURL $.Site.Params.images.logoCollapseDark }}" height="40" class="logo-dark d-none" alt="{{ .Site.Title }}">
                         </a>
                     </div>
-                    <!-- logo end -->
                 </div>
+                <!-- logo end -->
+
                 <div class="sidebar-menu flex-fill">
                     <div class="sidebar-scroll">
                         <div class="sidebar-menu-inner">
@@ -91,7 +92,7 @@
                                 {{ range .Site.Data.webstack }}
                                     {{ if .list }}
                                     <li class="sidebar-item">
-                                        <a href="#{{ range first 1 .list }}{{ md5 .term }}{{ end }}" class="smooth change-href" data-change="#{{ range first 1 .list }}{{ md5 .term }}{{ end }}">    
+                                        <a href="#{{ range first 1 .list }}{{ md5 .term }}{{ end }}" class="smooth change-href" data-change="#{{ range first 1 .list }}{{ md5 .term }}{{ end }}">
                                             <i class="{{ .icon }} icon-fw icon-lg mr-2"></i>
                                             <span>{{ .taxonomy }}</span>
                                             <i class="iconfont icon-arrow-r-m sidebar-more text-sm"></i>
@@ -118,15 +119,6 @@
                 <div class="border-top py-2 border-color">
                     <div class="flex-bottom">
                         <ul>
-                            <!--
-                            <li id="menu-item-237"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237 sidebar-item">
-                                <a href="{{ $.Site.Params.upload }}" target="_blank">
-                                    <i class="fas fa-file-upload icon-fw icon-lg mr-2"></i>
-                                    <span>网站提交</span></a>
-                            </li>
-                            -->
-                            
                             <li id="menu-item-212"
                                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-212 sidebar-item">
                                  <a href="#friendlink" class="smooth">
@@ -134,11 +126,18 @@
                                      <span>友情链接</span>
                                  </a>
                             </li>
-                            
+                            <!--
+                            <li id="menu-item-237"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237 sidebar-item">
+                                <a href="{{ $.Site.Params.upload }}" target="_blank">
+                                    <i class="fas fa-file-upload icon-fw icon-lg mr-2"></i>
+                                    <span>网站追加</span></a>
+                            </li>
+                            -->
                             <!--
                             <li id="menu-item-213"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-213 sidebar-item">
-                                <a target="_blank" rel="noopener" href="{{ $.Site.Params.about }}">
+                                <a href="{{ $.Site.Params.about }} target="_blank" rel="noopener" ">
                                     <i class="fa fa-info-circle icon-fw icon-lg mr-2"></i>
                                     <span>关于导航</span></a>
                             </li>

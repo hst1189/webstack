@@ -1,5 +1,5 @@
 /*调整全局字体大小*/
-body,html{font-size:14px;}
+body,html{font-size:14px;scroll-padding-top: 90px;}
 
 /*主页header-banner底部宽度*/
 .post-top{padding-bottom:50px}
@@ -41,7 +41,7 @@ body,html{font-size:14px;}
 .header-big .search-type input:checked+label:before{content:'';border-width:8px 8px 0px 8px;border-style:solid;border-color:#ffffff transparent transparent;position:absolute;left:50%;top:0;margin-left:-8px}
 
 /*搜索框(头+底部)字体颜色*/
-.header-big:not(.no-bg) .s-type-list{color:#20c997}
+.header-big:not(.no-bg) .s-type-list{color:#fff}
 .header-big:not(.no-bg) .text-muted,.header-big:not(.no-bg) .search-type .menu-item a,.header-big:not(.no-bg) .big-title .h1{color:#ffffff!important}
 
 /*搜索部分背景样式*/
@@ -100,10 +100,9 @@ body,html{font-size:14px;}
 
 /*网格背景*/
 .io-grey-mode .page-container .grid-bg {
-    background-image: linear-gradient(rgba(50, 0, 0, 0.05) 1px, transparent 0), linear-gradient(90deg, rgba(50, 0, 0, 0.05) 1px, transparent 0); 
-    background-size: 15px 15px;
-    background-color: #d8d8d8;
+    background-image: url("../images/home-bg.jpg");
 }
+
 
 /*导航 Logo 图标裁剪边角*/
 .url-card .url-img > img {
