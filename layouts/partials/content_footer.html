@@ -18,7 +18,7 @@
                 </a>
                 -->
                 
-                <!-- 模式切换  -->
+                <!-- 模式切换-->
                 {{ if $.Site.Params.nightMode }} 
                 <a href="javascript:" onclick="window.location.href='javascript:switchNightMode()'" class="btn rounded-circle switch-dark-mode m-1" id="yejian" data-toggle="modal" data-placement="left" title="模式切换">
                     <i class="mode-ico iconfont icon-light"></i>
@@ -28,6 +28,7 @@
                     <i class="mode-ico iconfont icon-night"></i>
                 </a>
                 {{ end }}
+
             </div>
             <div class="footer-inner">
                 <div class="footer-text">{{ replace $.Site.Params.footer.copyright "{year}" now.Year | markdownify }}</div>

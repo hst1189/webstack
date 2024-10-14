@@ -32,18 +32,18 @@ publishDir            = "public"
     key = "085791e805a24491b43b06cf58ab31e7"
 
 [params.images]
-    favicon           = "./assets/images/favicon.png"
+    favicon           = "./assets/images/favicon.svg"
     searchImageL      = "./assets/images/home-bg.jpg"               # 搜索部分浅色背景图
     searchImageD      = "./assets/images/home-bg.jpg"               # 搜索部分深色背景图
-    logoExpandLight   = "./assets/images/logo-collapse-light.png"
-    logoExpandDark    = "./assets/images/logo-collapse-dark.png"
-    logoCollapseLight = "./assets/images/logo-collapse-light.png"
-    logoCollapseDark  = "./assets/images/logo-collapse-dark.png"
+    logoExpandLight   = "./assets/images/favicon.png"
+    logoExpandDark    = "./assets/images/favicon.png"
+    logoCollapseLight = "./assets/images/favicon.png"
+    logoCollapseDark  = "./assets/images/favicon.png"
 
 [markup.goldmark.renderer]
     unsafe = true
 
 [params.footer]
-    copyright = 'Copyright © {year} [小饅頭の部屋](https://www.grapehut.us.kg) <br>[萌ICP备20241189号](https://icp.gov.moe/?keyword=20241189) | Power By [WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo)'
+    copyright = 'Copyright © ～{year} [小饅頭の部屋](https://www.grapehut.us.kg) <br>[萌ICP备20241189号](https://icp.gov.moe/?keyword=20241189) | Power By [WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo)'
 
 
