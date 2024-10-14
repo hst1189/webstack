@@ -227,6 +227,17 @@
           description: 奇妙的在线混音和声网站
 
 
+- taxonomy: その他
+  icon: far fa-folder-open fa-lg
+  list:
+    - term: その他
+      links:
+        - title: 日本郵便番号データダウンロード
+          logo: 
+          url: https://www.post.japanpost.jp/zipcode/download.html
+          description: 日本郵便番号データダウンロード
+
+
 
 - taxonomy: 素材资源
   icon: far fa-folder-open fa-lg
