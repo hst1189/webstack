@@ -5,15 +5,15 @@
                 <div class="s-type text-center">
                     <div class="s-type-list big">
                         <div class="anchor" style="position: absolute; left: 50%; opacity: 0;"></div>
-                        <label for="type-baidu"  data-id="group-a"><span>搜索</span></label>
+                        <label for="type-baidu"   data-id="group-a"><span>搜索</span></label>
                         <label for="type-whois"   data-id="group-b"><span>工具网站</span></label>
-                        <label for="type-taobao1" data-id="group-c"><span>生活网站</span></label>
-                        <label for="type-zhaopin" data-id="group-d"><span>求职网站</span></label>
+                        <label for="type-taobao"  data-id="group-c"><span>生活网站</span></label>
+                        <label for="type-lancers" data-id="group-d"><span>求职网站</span></label>
                     </div>
                 </div>
             </div>
 
-            <form action="https://www.baidu.com?s=" method="get" target="_blank" class="super-search-fm">
+            <form action="https://www.baidu.com/s?wd=" method="get" target="_blank" class="super-search-fm">
                 <input type="text" id="search-text" class="form-control smart-tips search-key" zhannei="" placeholder="输入关键字搜索" style="outline:0" autocomplete="off">
                 <button class="submit" type="submit"><i class="iconfont icon-search"></i></button>
             </form>
@@ -98,10 +98,10 @@
                 <div class="search-group group-c">
                     <ul class="search-type">
                         <li><input hidden="" type="radio" name="type" 
-                                id="type-taobao1" 
+                                id="type-taobao" 
                                 value="https://s.taobao.com/search?q=" 
                                 data-placeholder="淘宝">
-                            <label for="type-taobao1"><span class="text-muted">淘宝</span></label>
+                            <label for="type-taobao"><span class="text-muted">淘宝</span></label>
                         </li>
                         <li><input hidden="" type="radio" name="type" 
                                 id="type-jd" 
@@ -127,28 +127,28 @@
                                 data-placeholder="12306">
                             <label for="type-12306"><span class="text-muted">12306</span></label>
                         </li>
-                        <li><input hidden="" type="radio" name="type" 
-                                id="type-qunar" 
-                                value="https://www.qunar.com/?" 
-                                data-placeholder="去哪儿">
-                            <label for="type-qunar"><span class="text-muted">去哪儿</span></label>
-                        </li>
                     </ul>
                 </div>
                 
                 <div class="search-group group-d">
                     <ul class="search-type">
                         <li><input hidden="" type="radio" name="type" 
-                                id="type-upwork" 
-                                value="https://www.upwork.com/nx/search/jobs/?nbs=1&q=japan" 
-                                data-placeholder="upwork">
-                            <label for="upwork"><span class="text-muted">upwork</span></label>
+                                id="type-lancers" 
+                                value="https://www.lancers.jp/work/search?open=1&keyword=" 
+                                data-placeholder="搜索マクロ">
+                            <label for="type-lancers"><span class="text-muted">lancers.jp</span></label>
                         </li>
-                    	<li><input hidden="" type="radio" name="type" 
+                        <li><input hidden="" type="radio" name="type" 
+                                id="type-upwork" 
+                                value="https://www.upwork.com/nx/search/jobs/?nbs=1&q=" 
+                                data-placeholder="搜索japan">
+                            <label for="type-upwork"><span class="text-muted">upwork</span></label>
+                        </li>
+                        <li><input hidden="" type="radio" name="type" 
                                 id="type-fiverr" 
-                                value="https://www.fiverr.com/search/gigs?query=japan" 
-                                data-placeholder="fiverr">
-                            <label for="fiverr"><span class="text-muted">fiverr</span></label>
+                                value="https://www.fiverr.com/search/gigs?query=" 
+                                data-placeholder="搜索japan">
+                            <label for="type-fiverr"><span class="text-muted">fiverr</span></label>
                         </li>
                         
                     </ul>
