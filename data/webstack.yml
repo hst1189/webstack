@@ -3,43 +3,37 @@
 - taxonomy: 常用推荐
   icon: far fa-star
   links: 
-    - title: 语雀
-      logo: 语雀.webp
-      url: https://www.yuque.com/
-      description: 专业的云端知识库。
+    - title: 零度解说
+      logo: youtube.png
+      url: https://www.youtube.com/@%E9%9B%B6%E5%BA%A6%E8%A7%A3%E8%AF%B4/videos
+      description: youtube技术博主
+    - title: 爬爬虾技术
+      logo: youtube.png
+      url: https://www.youtube.com/@Tech_Shrimp/videos
+      description: youtube技术博主
+    - title: 不良林
+      logo: youtube.png
+      url: https://www.youtube.com/@bulianglin/videos
+      description: youtube技术博主
+    - title: 玄离199
+      logo: youtube.png
+      url: https://www.youtube.com/@XuanLi199/videos
+      description: youtube技术博主
 
 
 
-- taxonomy: 科研办公
+- taxonomy: 网盘
   icon: fas fa-flask fa-lg
-  list:
-    - term: 生物信息
       links:
-        - title: NCBI
-          logo: ncbi.jpg
-          url: https://www.ncbi.nlm.nih.gov/
-          description: National Center for Biotechnology Information.
-
-    - term: 云服务器
-      links:
-        - title: 阿里云
-          logo: 阿里云.jpg
-          url: https://www.aliyun.com/
-          description: 上云就上阿里云。
-
-        - title: 腾讯云
-          logo: 腾讯云.webp
-          url: https://cloud.tencent.com/
-          description: 产业智变，云启未来。
-
-        - title: 华为云
-          logo: 华为云.png
-          url: https://www.huaweicloud.com/
-          description: 提供云计算服务+智能，见未来-华为云。
+        - title: 网盘搜索
+          logo: UICloud.png
+          url: https://www.pansou.vip/
+          description: 网盘搜索工具
 
 
 
-- taxonomy: 悠闲娱乐
+
+- taxonomy: 影音视频
   icon: fas fa-film fa-lg
   list:
     - term: 影音视频
@@ -63,28 +57,6 @@
 - taxonomy: 素材资源
   icon: far fa-folder-open fa-lg
   list:
-    - term: 网盘资源
-      links:
-
-        - title: 百度网盘
-          logo: 百度网盘.jpg
-          url: http://pan.baidu.com/
-          description: https://pan.baidu.com/.
-
-        - title: 阿里云盘
-          logo: 阿里云盘.png
-          url: https://www.aliyundrive.com/
-          description: 阿里云盘，你的数字世界。
-
-        - title: 天翼云盘
-          logo: 天翼云盘.jpg
-          url: https://cloud.189.cn/
-          description: 家庭云|网盘|文件备份|资源分享。
-
-        - title: 坚果云
-          logo: 坚果云.png
-          usrl: https://www.jianguoyun.com/
-          description: 坚果云官网。
 
     - term: 图标素材
       links:
