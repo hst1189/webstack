@@ -24,12 +24,11 @@
 
 - taxonomy: 网盘
   icon: fas fa-flask fa-lg
-      links:
-        - title: 网盘搜索
-          logo: UICloud.png
-          url: https://www.pansou.vip/
-          description: 网盘搜索工具
-
+  links:
+    - title: 网盘搜索
+      logo: UICloud.png
+      url: https://www.pansou.vip/
+      description: 网盘搜索工具
 
 
 
