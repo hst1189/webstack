@@ -1,5 +1,32 @@
+# 修改 webstack
 
-# 发布github pages
+```
+/data
+   ⊥ friendlink.yml   友情链接
+   ⊥ headers.yml      顶部的菜单
+   ⊥ westack.yml      添加网站
+
+/layouts
+   ⊥ header.html           html全体head（添加css,js）
+   ⊥ sidebar.html          侧边栏（启动动画，白昼黑夜模式，）
+   ⊥ content_header.html   头部菜单
+   ⊥ content_search.html   头部菜单
+   ⊥ content_main.html     主体
+   ⊥ content_footer.html   底部
+   ⊥ modal_search.html     未使用
+   ⊥ footer.html           html全体底部
+   
+/static/assets
+   ⊥ css        css
+   ⊥ js         js
+   ⊥ images     背景图片等
+   ⊥ logos      主体收藏网站的缩略图
+```   
+   
+
+
+
+# 发布 webstack on github pages
 > https://gohugo.io/hosting-and-deployment/hosting-on-github/
 
 
