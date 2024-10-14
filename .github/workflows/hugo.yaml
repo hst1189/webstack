@@ -1,14 +1,12 @@
-# Sample workflow for building and deploying a Hugo site to GitHub Pages
-name: Deploy Hugo site to Pages
+name: build webstack-hugo
 
 on:
-  # Runs on pushes targeting the default branch
+  workflow_dispatch:
   push:
     branches:
-      - main
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+      - main  
+  schedule:
+    - cron: "0 16 * * *"
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
