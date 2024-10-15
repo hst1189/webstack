@@ -6,20 +6,8 @@
   icon: fa fa-camera-retro
   link: "#"
   
-- item: Github
-  icon: fa fa-github
-  link: "#"
-      
-- item: Facebook
-  icon: fa fa-facebook-official
-  link: "#"
-
-- item: Telegram
-  icon: fa fa-telegram
-  link: "#"
-
-- item: Money
-  icon: fa fa-money
+- item: 予備
+  icon: fa fa-book
   link: "#"
   list:
     - name: 赚钱有道
