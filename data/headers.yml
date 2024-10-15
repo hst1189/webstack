@@ -4,23 +4,23 @@
   
 - item: Picture
   icon: fa fa-camera-retro
-  link: ""
+  link: "#"
   
 - item: Github
   icon: fa fa-github
-  link: ""
+  link: "#"
       
 - item: Facebook
   icon: fa fa-facebook-official
-  link: ""
+  link: "#"
 
 - item: Telegram
   icon: fa fa-telegram
-  link: ""
+  link: "#"
 
 - item: Money
   icon: fa fa-money
-  link: ""
+  link: "#"
   list:
     - name: 赚钱有道
       url: #
