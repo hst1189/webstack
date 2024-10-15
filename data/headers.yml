@@ -1,27 +1,39 @@
 - item: Home
   icon: fa fa-home
+  link: "https://www.grapehut.us.kg"
+
+- item: Picture
+  icon: fa fa-camera-retro
   link: ""
 
-- item: 予備１
-  icon: fa fa-book
+- item: Github
+  icon: fa fa-github
   link: ""
       
-- item: 予備２
-  icon: fa fa-book
+- item: Facebook
+  icon: fa fa-facebook-official
   link: ""
 
-- item: 予備３
-  icon: fa fa-book
+- item: Telegram
+  icon: fa fa-telegram
   link: ""
 
-- item: 予備４
-  icon: fa fa-book
+- item: QQ
+  icon: fa fa-qq
+  link: ""
+
+- item: Weibo
+  icon: fa fa-weibo
+  link: ""
+
+- item: Money
+  icon: fa fa-money
   link: ""
   list:
-    - name: メニュー１
+    - name: 赚钱有道
       url: #
-    - name: メニュー２
+    - name: 赚钱有道
       url: #
-    - name: メニュー３
+    - name: 赚钱有道
       url: #
 
