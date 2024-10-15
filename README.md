@@ -17,13 +17,16 @@
    ⊥ footer.html           html全体底部
    
 /static/assets
-   ⊥ css        css
-   ⊥ js         js
-   ⊥ images     背景图片等
-   ⊥ logos      主体收藏网站的缩略图
+   ⊥ css                   css
+     ⊥  custom-style.css   主要修改对象
+   ⊥ js                    js
+   ⊥ images                背景图片，网站LOGO等
+   ⊥ logos                 主体收藏网站的缩略图
 ```   
-   
 
+
+# icon fontawesome-5.15.4
+> https://fontawesome.com/v4/icons/
 
 
 # 发布 webstack on github pages
