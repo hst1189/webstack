@@ -187,7 +187,7 @@
           logo: 
           url: https://taira-komori.jpn.org/freesoundcn.html
           description: 小森平的免费下载音效
-
+          
       links:
         - title: 魔王魂
           logo: 
@@ -224,11 +224,17 @@
           url: http://dust-sounds.com/
           description: dust-sounds
 
+    
     - term: Free Video
       links:
         - title: LIBVIO
           logo: 
           url: https://www.libvio.pw/
+          description: 超清在线视频
+
+       - title: 爱电影
+          logo: 
+          url: https://www.ivdy.com/
           description: 超清在线视频
 
           
@@ -258,6 +264,11 @@
           logo: 
           url: https://www.yikm.net/
           description: 红白机经典游戏在线玩
+      links:
+        - title: flysheep资源避难所
+          logo: 
+          url: https://www.flysheep6.com/
+          description: 最新游戏资源
 
 
 
