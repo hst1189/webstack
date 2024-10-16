@@ -70,7 +70,7 @@
 
 - taxonomy: 站长百宝箱
   icon: fas fa-flask fa-lg
-   list:
+  list:
     - term: Domain関連
       links:
       - title: nom.za
