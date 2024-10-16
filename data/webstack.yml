@@ -42,12 +42,12 @@
           logo: 
           url: https://jpgrm.com/
           description: 图片中任何不需要的部分智能擦除、填补背景内容、消除水印
-     links:
+      links:
         - title: AI图片风格转换
           logo: 
           url: https://idjpg.com/
           description: 照片转化 3D、卡通、线稿、动漫、电影等无限种艺术风格，还可以修复老照片
-     links:
+      links:
         - title: AI生成二次元图片
           logo: 
           url: https://tools.miku.ac/novelai/
@@ -378,5 +378,5 @@
           url: http://sicangziti.com/
           logo: sicangziti.png
           description: 优质字体免费下载站。
-
-
+          
+  
