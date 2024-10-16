@@ -224,6 +224,12 @@
           url: http://dust-sounds.com/
           description: dust-sounds
 
+      links:
+        - title: 一起听歌吧
+          logo: 
+          url: https://music.alang.run/
+          description: mixkit.co
+
     
     - term: Free Video
       links:
@@ -237,18 +243,26 @@
           url: https://www.ivdy.com/
           description: 超清在线视频
 
+       - title: 爱壹帆
+          logo: 
+          url: https://www.iyf.tv/
+          description: 超清在线视频
+
           
 - taxonomy: 游戏
   icon: far fa-folder-open fa-lg
   list:
     - term: 游戏
-
-
       links:
         - title: Minecraft
           logo: 
           url: https://classic.minecraft.net
           description: Minecraft在线玩
+        links:
+        - title: biomes.gg
+          logo: 
+          url: https://biomes.gg
+          description: sanbox游戏
       links:
         - title: 在线玩DOS游戏
           logo: 
