@@ -238,12 +238,12 @@
           url: https://www.libvio.pw/
           description: 超清在线视频
 
-       - title: 爱电影
+        - title: 爱电影
           logo: 
           url: https://www.ivdy.com/
           description: 超清在线视频
 
-       - title: 爱壹帆
+        - title: 爱壹帆
           logo: 
           url: https://www.iyf.tv/
           description: 超清在线视频
@@ -258,7 +258,7 @@
           logo: 
           url: https://classic.minecraft.net
           description: Minecraft在线玩
-        links:
+      links:
         - title: biomes.gg
           logo: 
           url: https://biomes.gg
