@@ -23,70 +23,104 @@
       url: https://www.youtube.com/@XuanLi199/videos
       description: youtube技术博主
 
+- taxonomy: AI new!
+  icon: far fa-folder-open fa-lg
+  list:
+    - term: AI图片工具
+      links:
+        - title: AI图片修复
+          logo: 
+          url: https://jpghd.com/
+          description: 图片无损高清修复（支持老照片修复、老照片上色和魔法动态照片）
+      links:
+        - title: AI图片放大
+          logo: 
+          url: https://jpghi.com/
+          description: 无损放大加增强，恢复图像极致细节和纹理！
+      links:
+        - title: AI图片智能擦除
+          logo: 
+          url: https://jpgrm.com/
+          description: 图片中任何不需要的部分智能擦除、填补背景内容、消除水印
+     links:
+        - title: AI图片风格转换
+          logo: 
+          url: https://idjpg.com/
+          description: 照片转化 3D、卡通、线稿、动漫、电影等无限种艺术风格，还可以修复老照片
+     links:
+        - title: AI生成二次元图片
+          logo: 
+          url: https://tools.miku.ac/novelai/
+          description: 照片转化 3D、卡通、线稿、动漫、电影等无限种艺术风格，还可以修复老照片
 
 
-- taxonomy: 免费域名
+    - term: AI视频工具
+      links:
+        - title: AI视频放大
+          logo: 
+          url: https://bigmp4.com/
+          description: 变色图标
+
+      links:
+        - title: Iconsfeed
+          logo: iconsfeed.png
+          url: http://www.iconsfeed.com/
+          description: iOS icons gallery.
+
+
+- taxonomy: 站长百宝箱
   icon: fas fa-flask fa-lg
-  links:
-    - title: nom.za
-      logo: 
-      url: https://secure.nom.za/
-      description: nom.za
+   list:
+    - term: Domain関連
+      links:
+      - title: nom.za
+        logo: 
+        url: https://secure.nom.za/
+        description: nom.za
 
-    - title: us.kg
-      logo: 
-      url: https://register.us.kg
-      description: us.kg
+      - title: us.kg
+        logo: 
+        url: https://register.us.kg
+        description: us.kg
 
+    - term: VPS関連
+      links:
+      - title: northflank
+        logo: 
+        url: https://northflank.com/
+        description: northflank 可Docker
 
+      - title: render
+        logo: 
+        url: https://render.com/
+        description: render 可Docker
 
+      - title: glitch
+        logo: 
+        url: https://glitch.com/
+        description: glitch 可Docker
 
+      - title: vercel
+        logo: 
+        url: https://vercel.com/login
+        description: vercel
 
-- taxonomy: 免费容器
-  icon: fas fa-flask fa-lg
-  links:
-    - title: northflank
-      logo: 
-      url: https://northflank.com/
-      description: northflank 可Docker
+    - term: 搜索空间
+      links:
+      - title: zoomeye
+        logo: 
+        url: https://www.zoomeye.hk/
+        description: zoomeye
 
-    - title: render
-      logo: 
-      url: https://render.com/
-      description: render 可Docker
+      - title: fofa
+        logo: 
+        url: https://fofa.info/
+        description: fofa
 
-    - title: glitch
-      logo: 
-      url: https://glitch.com/
-      description: glitch 可Docker
-
-    - title: vercel
-      logo: 
-      url: https://vercel.com/login
-      description: vercel
-
-
-
-- taxonomy: 免费空间
-  icon: fas fa-flask fa-lg
-  links:
-    - title: zoomeye
-      logo: 
-      url: https://www.zoomeye.hk/
-      description: zoomeye
-
-    - title: fofa
-      logo: 
-      url: https://fofa.info/
-      description: fofa
-
-    - title: censys.io
-      logo: 
-      url: https://search.censys.io/
-      description: censys.io
-
-
-
+      - title: censys.io
+        logo: 
+        url: https://search.censys.io/
+        description: censys.io
 
 - taxonomy: 网盘
   icon: fas fa-flask fa-lg
@@ -189,6 +223,43 @@
           logo: 
           url: http://dust-sounds.com/
           description: dust-sounds
+
+    - term: Free Video
+      links:
+        - title: LIBVIO
+          logo: 
+          url: https://www.libvio.pw/
+          description: 超清在线视频
+
+          
+- taxonomy: 游戏
+  icon: far fa-folder-open fa-lg
+  list:
+    - term: 游戏
+
+
+      links:
+        - title: Minecraft
+          logo: 
+          url: https://classic.minecraft.net
+          description: Minecraft在线玩
+      links:
+        - title: 在线玩DOS游戏
+          logo: 
+          url: https://dos.lol/
+          description: 在线玩DOS游戏
+      links:
+        - title: 经典游戏在线玩
+          logo: 
+          url: https://zaixianwan.app/
+          description: 红白机经典游戏在线玩
+      links:
+        - title: yikm.net
+          logo: 
+          url: https://www.yikm.net/
+          description: 红白机经典游戏在线玩
+
+
 
 
 
