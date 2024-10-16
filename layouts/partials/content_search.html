@@ -6,9 +6,10 @@
                     <div class="s-type-list big">
                         <div class="anchor" style="position: absolute; left: 50%; opacity: 0;"></div>
                         <label for="type-baidu"   data-id="group-a"><span>搜索</span></label>
-                        <label for="type-whois"   data-id="group-b"><span>工具网站</span></label>
-                        <label for="type-taobao"  data-id="group-c"><span>生活网站</span></label>
+                        <label for="type-douyin"  data-id="group-b"><span>影音娱乐</span></label>
+                        <label for="type-taobao"  data-id="group-c"><span>网上购物</span></label>
                         <label for="type-lancers" data-id="group-d"><span>求职网站</span></label>
+                        <label for="type-whois"   data-id="group-d"><span>网络工具</span></label>
                     </div>
                 </div>
             </div>
@@ -25,36 +26,117 @@
                                 id="type-baidu"
                                 value="https://www.baidu.com/s?wd=" 
                                 data-placeholder="百度一下，你就知道">
-                            <label for="type-baidu"><span class="text-muted">百度</span></label>
+                            <label for="type-baidu"><span class="text-muted">Baidu</span></label>
                         </li>
                         <li><input hidden="" type="radio" name="type" 
                                 id="type-google"
                                 value="https://www.google.com/search?q=" 
-                                data-placeholder="谷歌搜索">
-                            <label for="type-google"><span class="text-muted">谷歌</span></label>
+                                data-placeholder="Google">
+                            <label for="type-google"><span class="text-muted">Google</span></label>
                         </li>
                         <li><input hidden="" type="radio" name="type" 
                                 id="type-bing"
                                 value="https://www.bing.com/search?q=" 
-                                data-placeholder="微软Bing搜索">
-                            <label for="type-bing"><span class="text-muted">必应</span></label>
+                                data-placeholder="微软Bing">
+                            <label for="type-bing"><span class="text-muted">Bing</span></label>
                         </li>
                         <li><input hidden="" type="radio" name="type" 
                                 id="type-duckduckgo"
                                 value="https://duckduckgo.com/?q=" 
-                                data-placeholder="DuckDuckGo搜索">
+                                data-placeholder="DuckDuckGo">
                             <label for="type-duckduckgo"><span class="text-muted">DuckDuckGo</span></label>
+                        </li>
+                        <li><input hidden="" type="radio" name="type" 
+                                id="type-yandex"
+                                value="https://yandex.com/search/?text=" 
+                                data-placeholder="Yandex">
+                            <label for="type-yandex"><span class="text-muted">Yandex</span></label>
                         </li>
                         <li><input hidden="" type="radio" name="type" 
                                 id="type-github"
                                 value="https://github.com/search?q=" 
-                                data-placeholder="github搜索">
-                            <label for="type-github"><span class="text-muted">github</span></label>
+                                data-placeholder="Github">
+                            <label for="type-github"><span class="text-muted">Github</span></label>
                         </li>
                     </ul>
                 </div>
                 
                 <div class="search-group group-b">
+                    <ul class="search-type">
+                        <li><input hidden="" type="radio" name="type" 
+                                id="type-douyin" 
+                                value="https://www.douyin.com/search/" 
+                                data-placeholder="抖音">
+                            <label for="type-douyin"><span class="text-muted">抖音</span></label>
+                        </li>
+                        <li><input hidden="" type="radio" name="type" 
+                                id="type-kuaishou" 
+                                value="https://www.kuaishou.com/search/video?searchKey=" 
+                                data-placeholder="快手">
+                            <label for="type-kuaishou"><span class="text-muted">快手</span></label>
+                        </li> 
+                        <li><input hidden="" type="radio" name="type" 
+                                id="type-youtube" 
+                                value="https://www.youtube.com/results?search_query=" 
+                                data-placeholder="Youtube">
+                            <label for="type-youtube"><span class="text-muted">Youtube</span></label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="search-group group-c">
+                    <ul class="search-type">
+                        <li><input hidden="" type="radio" name="type" 
+                                id="type-taobao" 
+                                value="https://s.taobao.com/search?q=" 
+                                data-placeholder="淘宝">
+                            <label for="type-taobao"><span class="text-muted">淘宝</span></label>
+                        </li>
+                        <li><input hidden="" type="radio" name="type" 
+                                id="type-jd" 
+                                value="https://search.jd.com/Search?keyword=" 
+                                data-placeholder="京东">
+                            <label for="type-jd"><span class="text-muted">京东</span></label> 
+                        </li>
+                        <li><input hidden="" type="radio" name="type" 
+                                id="type-xiachufang" 
+                                value="https://www.xiachufang.com/search/?keyword=" 
+                                data-placeholder="下厨房">
+                            <label for="type-xiachufang"><span class="text-muted">下厨房</span></label>
+                        </li>
+                        <li><input hidden="" type="radio" name="type" 
+                                id="type-xiangha" 
+                                value="https://www.xiangha.com/so/?q=caipu&s=" 
+                                data-placeholder="香哈菜谱">
+                            <label for="type-xiangha"><span class="text-muted">香哈菜谱</span></label>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="search-group group-d">
+                    <ul class="search-type">
+                        <li><input hidden="" type="radio" name="type" 
+                                id="type-lancers" 
+                                value="https://www.lancers.jp/work/search?open=1&keyword=" 
+                                data-placeholder="搜索マクロ">
+                            <label for="type-lancers"><span class="text-muted">Lancers</span></label>
+                        </li>
+                        <li><input hidden="" type="radio" name="type" 
+                                id="type-upwork" 
+                                value="https://www.upwork.com/nx/search/jobs/?nbs=1&q=" 
+                                data-placeholder="搜索japan">
+                            <label for="type-upwork"><span class="text-muted">Upwork</span></label>
+                        </li>
+                        <li><input hidden="" type="radio" name="type" 
+                                id="type-fiverr" 
+                                value="https://www.fiverr.com/search/gigs?query=" 
+                                data-placeholder="搜索japan">
+                            <label for="type-fiverr"><span class="text-muted">Fiverr</span></label>
+                        </li>            
+                    </ul>
+                </div>
+                
+                <div class="search-group group-e">
                     <ul class="search-type">
                         <li><input hidden="" type="radio" name="type" 
                                 id="type-whois"
@@ -94,66 +176,8 @@
                         </li>
                     </ul>
                 </div>
-                
-                <div class="search-group group-c">
-                    <ul class="search-type">
-                        <li><input hidden="" type="radio" name="type" 
-                                id="type-taobao" 
-                                value="https://s.taobao.com/search?q=" 
-                                data-placeholder="淘宝">
-                            <label for="type-taobao"><span class="text-muted">淘宝</span></label>
-                        </li>
-                        <li><input hidden="" type="radio" name="type" 
-                                id="type-jd" 
-                                value="https://search.jd.com/Search?keyword=" 
-                                data-placeholder="京东">
-                            <label for="type-jd"><span class="text-muted">京东</span></label> 
-                        </li>
-                        <li><input hidden="" type="radio" name="type" 
-                                id="type-xiachufang" 
-                                value="https://www.xiachufang.com/search/?keyword=" 
-                                data-placeholder="下厨房">
-                            <label for="type-xiachufang"><span class="text-muted">下厨房</span></label>
-                        </li>
-                        <li><input hidden="" type="radio" name="type" 
-                                id="type-xiangha" 
-                                value="https://www.xiangha.com/so/?q=caipu&s=" 
-                                data-placeholder="香哈菜谱">
-                            <label for="type-xiangha"><span class="text-muted">香哈菜谱</span></label>
-                        </li>
-                        <li><input hidden="" type="radio" name="type" 
-                                id="type-12306" 
-                                value="https://www.12306.cn/?" 
-                                data-placeholder="12306">
-                            <label for="type-12306"><span class="text-muted">12306</span></label>
-                        </li>
-                    </ul>
-                </div>
-                
-                <div class="search-group group-d">
-                    <ul class="search-type">
-                        <li><input hidden="" type="radio" name="type" 
-                                id="type-lancers" 
-                                value="https://www.lancers.jp/work/search?open=1&keyword=" 
-                                data-placeholder="搜索マクロ">
-                            <label for="type-lancers"><span class="text-muted">lancers.jp</span></label>
-                        </li>
-                        <li><input hidden="" type="radio" name="type" 
-                                id="type-upwork" 
-                                value="https://www.upwork.com/nx/search/jobs/?nbs=1&q=" 
-                                data-placeholder="搜索japan">
-                            <label for="type-upwork"><span class="text-muted">upwork</span></label>
-                        </li>
-                        <li><input hidden="" type="radio" name="type" 
-                                id="type-fiverr" 
-                                value="https://www.fiverr.com/search/gigs?query=" 
-                                data-placeholder="搜索japan">
-                            <label for="type-fiverr"><span class="text-muted">fiverr</span></label>
-                        </li>
-                        
-                    </ul>
-                </div>
             </div>
+            
             <div class="card search-smart-tips search-hot-text">
                 <ul id="word" style="display: none"></ul>
             </div>
