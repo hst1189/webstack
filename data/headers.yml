@@ -1,10 +1,27 @@
-- item: Home
-  icon: fa fa-home
-  link: "https://www.grapehut.us.kg"
-  
+- item: 弯弯成人论坛
+  icon: fa fa-anchor
+  link: "#"
+  list:
+    - name: 17321成人導航
+      url: https://17321.xyz/a00-%e6%88%90%e4%ba%ba/
+    - name: 屋受論壇
+      url: https://wuso.me/forum.php
+    - name: D哥新聞・魚訊・樓鳳
+      url: https://dbro.news/category/s0-spa
+    - name: 朱古力
+      url: https://pigav.com/ 
+      
+
 - item: Picture
   icon: fa fa-camera-retro
   link: "#"
+  list:
+    - name: 赚钱有道
+      url: #
+    - name: 赚钱有道
+      url: #
+    - name: 赚钱有道
+      url: #
   
 - item: 予備
   icon: fa fa-book
