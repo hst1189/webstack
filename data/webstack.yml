@@ -2,7 +2,12 @@
 
 - taxonomy: 推荐
   icon: far fa-star
-  links: 
+  links:  
+    - title: cobalt.tools
+      logo: 
+      url: https://cobalt.tools/
+      description: 视频下载
+
     - title: 零度解说
       logo: youtube.png
       url: https://www.youtube.com/@%E9%9B%B6%E5%BA%A6%E8%A7%A3%E8%AF%B4/videos
