@@ -9,7 +9,20 @@
     - name: D哥新聞・魚訊・樓鳳
       url: https://dbro.news/category/s0-spa
     - name: 朱古力
-      url: https://pigav.com/  
+      url: https://pigav.com/
+      
+- item: R18+
+  icon: fa fa-film
+  link: "#"
+  list:
+    - name: Beeg
+      url: https://beeg.com/Armadillo
+    - name: 
+      url: 
+    - name: 
+      url: 
+    - name: 
+      url:   
 
 - item: Picture
   icon: fa fa-camera-retro
