@@ -51,6 +51,7 @@
                         <!-- 一言 -->
                         {{ with .Site.Params.yiyan }}
                         <li class="nav-item mr-2 mr-lg-0 d-none d-lg-block">
+                            <!--
                             <script>
                                 fetch('https://v1.hitokoto.cn/?c=b')
                                     .then(response => response.json())
@@ -62,6 +63,8 @@
                                     .catch(console.error)
                             </script>                           
                             <div id="hitokoto"><a href="#" id="hitokoto_text"></a></div>
+                            -->
+                            <div id="hitokoto"><img src="https://v1.jinrishici.com/all.svg" alt="今日诗词"></div>
                         </li>
                         {{ end }}
                         
