@@ -36,7 +36,7 @@
 - taxonomy: AI new!
   icon: far fa-folder-open fa-lg
   list:
-  - term: AI社区
+    - term: AI社区
       links:
         - title: Replicate
           logo: 
@@ -66,6 +66,12 @@
           logo: 
           url: https://prompthero.com/
           description: prompt集合
+      
+      links:
+        - title: PromptSpace
+          logo: 
+          url: https://create.promptspace.app/
+          description: 创建GenAI APP
 
       links:
         - title: MajinAI
@@ -144,6 +150,11 @@
         description: nom.za
 
       - title: us.kg
+        logo: 
+        url: https://register.us.kg
+        description: us.kg
+      
+      - title: pa.us
         logo: 
         url: https://register.us.kg
         description: us.kg
