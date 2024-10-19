@@ -36,6 +36,61 @@
 - taxonomy: AI new!
   icon: far fa-folder-open fa-lg
   list:
+  - term: AI社区
+      links:
+        - title: Replicate
+          logo: 
+          url: https://replicate.com/
+          description: 机器学习模型预览
+      
+      links:
+        - title: civital
+          logo: 
+          url: https://civitai.com/
+          description: AI绘画社区
+      
+      links:
+        - title: HuggingFace
+          logo: 
+          url: https://huggingface.co/
+          description: AI模型社区
+      
+      links:
+        - title: PromptBase
+          logo: 
+          url: https://promptbase.com/
+          description: prompt交易市场
+
+      links:
+        - title: PromptHero
+          logo: 
+          url: https://prompthero.com/
+          description: prompt集合
+
+      links:
+        - title: MajinAI
+          logo: 
+          url: https://majinai.art/ja/index.php
+          description: AI图像生成prompt搜索引擎
+
+      links:
+        - title: Comfy Workflows
+          logo: 
+          url: https://comfyworkflows.com/
+          description: ComfyUI工作流
+
+      links:
+        - title: openart
+          logo: 
+          url: https://openart.ai/
+          description: ComfyUI工作流   
+      links:
+        - title: cursor.directory
+          logo: 
+          url: https://cursor.directory/
+          description: 开发人员的prompt合集           
+
+    
     - term: AI图片工具
       links:
         - title: AI图片修复
