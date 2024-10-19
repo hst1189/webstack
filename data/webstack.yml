@@ -332,6 +332,14 @@
           url: https://www.incredibox.com/
           description: 奇妙的在线混音和声网站
 
+      links:
+        - title: learningmusic
+          logo: 
+          url: https://learningmusic.ableton.com/zh-Hans/
+          description: 电子音乐零基础教学
+
+          
+
 
 - taxonomy: その他
   icon: far fa-folder-open fa-lg
