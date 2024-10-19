@@ -8,11 +8,6 @@
       url: https://cobalt.tools/
       description: 视频下载
       
-    - title: rutube.ru
-      logo: 
-      url: https://rutube.ru/
-      description: 老毛子的视频网站
-
     - title: 零度解说
       logo: youtube.png
       url: https://www.youtube.com/@%E9%9B%B6%E5%BA%A6%E8%A7%A3%E8%AF%B4/videos
@@ -332,6 +327,16 @@
           logo: 
           url: https://a.ysscj.site/
           description: 影视收藏夹
+
+        - title: rutube.ru
+          logo: 
+          url: https://rutube.ru/
+          description: 老毛子的视频网站
+
+        - title: plex.tv
+          logo: 
+          url: https://watch.plex.tv/
+          description: plex.tv
       
         - title: LIBVIO
           logo: 
