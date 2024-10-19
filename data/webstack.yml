@@ -321,8 +321,13 @@
           description: mixkit.co
 
     
-    - term: Free Video
+    - term: 免费影视
       links:
+        - title: 免费影视
+          logo: 
+          url: http://guozhivip.com/mvs.html
+          description: 果汁导航
+      
         - title: LIBVIO
           logo: 
           url: https://www.libvio.pw/
