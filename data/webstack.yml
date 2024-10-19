@@ -99,6 +99,20 @@
     
     - term: AI图片工具
       links:
+        - title: AI大集合
+          logo: 
+          url: http://guozhivip.com/ai/
+          description: 果汁导航（图片，音乐，视频）
+
+      links:
+        - title: 有趣的网站
+          logo: 
+          url: http://guozhivip.com/lab/
+          description: 果汁导航（有趣的网站）
+          
+
+    
+      links:
         - title: AI图片修复
           logo: 
           url: https://jpghd.com/
