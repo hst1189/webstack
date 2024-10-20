@@ -37,13 +37,13 @@
           logo: 
           url: https://replicate.com/
           description: 机器学习模型预览
-      
+
       links:
         - title: civital
           logo: 
           url: https://civitai.com/
           description: AI绘画社区
-      
+
       links:
         - title: HuggingFace
           logo: 
@@ -91,7 +91,7 @@
           url: https://cursor.directory/
           description: 开发人员的prompt合集           
 
-    
+
     - term: AI图片工具
       links:
         - title: AI大集合
@@ -99,14 +99,6 @@
           url: http://guozhivip.com/ai/
           description: 果汁导航（图片，音乐，视频）
 
-      links:
-        - title: 有趣的网站
-          logo: 
-          url: http://guozhivip.com/lab/
-          description: 果汁导航（有趣的网站）
-          
-
-    
       links:
         - title: AI图片修复
           logo: 
@@ -153,59 +145,59 @@
   list:
     - term: Domain関連
       links:
-      - title: nom.za
-        logo: 
-        url: https://secure.nom.za/
-        description: nom.za
+        - title: nom.za
+          logo: 
+          url: https://secure.nom.za/
+          description: nom.za
 
-      - title: us.kg
-        logo: 
-        url: https://register.us.kg
-        description: us.kg
-      
-      - title: pa.us
-        logo: 
-        url: https://register.us.kg
-        description: us.kg
+        - title: us.kg
+          logo: 
+          url: https://register.us.kg
+          description: us.kg
+
+        - title: pa.us
+          logo: 
+          url: https://register.us.kg
+          description: us.kg
 
     - term: VPS関連
       links:
-      - title: northflank
-        logo: 
-        url: https://northflank.com/
-        description: northflank 可Docker
+        - title: northflank
+          logo: 
+          url: https://northflank.com/
+          description: northflank 可Docker
 
-      - title: render
-        logo: 
-        url: https://render.com/
-        description: render 可Docker
+        - title: render
+          logo: 
+          url: https://render.com/
+          description: render 可Docker
 
-      - title: glitch
-        logo: 
-        url: https://glitch.com/
-        description: glitch 可Docker
+        - title: glitch
+          logo: 
+          url: https://glitch.com/
+          description: glitch 可Docker
 
-      - title: vercel
-        logo: 
-        url: https://vercel.com/login
-        description: vercel
+        - title: vercel
+          logo: 
+          url: https://vercel.com/login
+          description: vercel
 
     - term: 搜索空间
       links:
-      - title: zoomeye
-        logo: 
-        url: https://www.zoomeye.hk/
-        description: zoomeye
+        - title: zoomeye
+          logo: 
+          url: https://www.zoomeye.hk/
+          description: zoomeye
 
-      - title: fofa
-        logo: 
-        url: https://fofa.info/
-        description: fofa
+        - title: fofa
+          logo: 
+          url: https://fofa.info/
+          description: fofa
 
-      - title: censys.io
-        logo: 
-        url: https://search.censys.io/
-        description: censys.io
+        - title: censys.io
+          logo: 
+          url: https://search.censys.io/
+          description: censys.io
 
 - taxonomy: 网盘
   icon: fas fa-flask fa-lg
@@ -234,7 +226,6 @@
       logo: sicangziti.png
       url: https://annas-archive.org/
       description: annas-archive
-
 
 
 
@@ -433,7 +424,11 @@
           url: https://learningmusic.ableton.com/zh-Hans/
           description: 电子音乐零基础教学
 
-          
+      links:
+        - title: 有趣的网站
+          logo: 
+          url: http://guozhivip.com/lab/
+          description: 果汁导航（有趣的网站）
 
 
 - taxonomy: その他
