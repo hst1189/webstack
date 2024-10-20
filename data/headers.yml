@@ -1,5 +1,5 @@
 - item: 小工具
-  icon: fa fa-tool
+  icon: fa fa-link
   link: "#"
   list:
     - name: MikuTools
