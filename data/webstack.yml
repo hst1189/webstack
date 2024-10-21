@@ -12,24 +12,26 @@
       logo: youtube.png
       url: https://www.youtube.com/@%E9%9B%B6%E5%BA%A6%E8%A7%A3%E8%AF%B4/videos
       description: youtube技术博主
-
+      
     - title: 爬爬虾技术
       logo: youtube.png
       url: https://www.youtube.com/@Tech_Shrimp/videos
       description: youtube技术博主
-
+      
     - title: 不良林
       logo: youtube.png
       url: https://www.youtube.com/@bulianglin/videos
       description: youtube技术博主
-
+      
     - title: 玄离199
       logo: youtube.png
       url: https://www.youtube.com/@XuanLi199/videos
       description: youtube技术博主
 
+
+
 - taxonomy: AI new!
-  icon: far fa-folder-open fa-lg
+  icon: far fa-folder-open
   list:
     - term: AI社区
       links:
@@ -37,61 +39,52 @@
           logo: 
           url: https://replicate.com/
           description: 机器学习模型预览
-
-      links:
+          
         - title: civital
           logo: 
           url: https://civitai.com/
           description: AI绘画社区
-
-      links:
+          
         - title: HuggingFace
           logo: 
           url: https://huggingface.co/
           description: AI模型社区
-      
-      links:
+          
         - title: PromptBase
           logo: 
           url: https://promptbase.com/
           description: prompt交易市场
-
-      links:
+          
         - title: PromptHero
           logo: 
           url: https://prompthero.com/
           description: prompt集合
-      
-      links:
+
+        - title: cursor.directory
+          logo: 
+          url: https://cursor.directory/
+          description: 开发人员的prompt合集
+
         - title: PromptSpace
           logo: 
           url: https://create.promptspace.app/
           description: 创建GenAI APP
-
-      links:
+          
         - title: MajinAI
           logo: 
           url: https://majinai.art/ja/index.php
           description: AI图像生成prompt搜索引擎
-
-      links:
+          
         - title: Comfy Workflows
           logo: 
           url: https://comfyworkflows.com/
           description: ComfyUI工作流
-
-      links:
+          
         - title: openart
           logo: 
           url: https://openart.ai/
-          description: ComfyUI工作流   
-      links:
-        - title: cursor.directory
-          logo: 
-          url: https://cursor.directory/
-          description: 开发人员的prompt合集           
-
-
+          description: ComfyUI工作流
+            
     - term: AI图片工具
       links:
         - title: AI大集合
@@ -99,32 +92,30 @@
           url: http://guozhivip.com/ai/
           description: 果汁导航（图片，音乐，视频）
 
-      links:
         - title: AI图片修复
           logo: 
           url: https://jpghd.com/
           description: 图片无损高清修复（支持老照片修复、老照片上色和魔法动态照片）
-      links:
+          
         - title: AI图片放大
           logo: 
           url: https://jpghi.com/
           description: 无损放大加增强，恢复图像极致细节和纹理！
-      links:
+          
         - title: AI图片智能擦除
           logo: 
           url: https://jpgrm.com/
           description: 图片中任何不需要的部分智能擦除、填补背景内容、消除水印
-      links:
+          
         - title: AI图片风格转换
           logo: 
           url: https://idjpg.com/
           description: 照片转化 3D、卡通、线稿、动漫、电影等无限种艺术风格，还可以修复老照片
-      links:
+          
         - title: AI生成二次元图片
           logo: 
           url: https://tools.miku.ac/novelai/
           description: 照片转化 3D、卡通、线稿、动漫、电影等无限种艺术风格，还可以修复老照片
-
 
     - term: AI视频工具
       links:
@@ -133,15 +124,15 @@
           url: https://bigmp4.com/
           description: 变色图标
 
-      links:
         - title: Iconsfeed
           logo: iconsfeed.png
           url: http://www.iconsfeed.com/
           description: iOS icons gallery.
 
 
+
 - taxonomy: 站长百宝箱
-  icon: fas fa-flask fa-lg
+  icon: fas fa-box
   list:
     - term: Domain関連
       links:
@@ -199,8 +190,10 @@
           url: https://search.censys.io/
           description: censys.io
 
+
+
 - taxonomy: 网盘
-  icon: fas fa-flask fa-lg
+  icon: fas fa-flask
   links:
     - title: 网盘搜索
       logo: UICloud.png
@@ -210,7 +203,7 @@
 
 
 - taxonomy: 図書
-  icon: fas fa-book fa-lg
+  icon: fas fa-book
   links:
     - title: z-library
       logo: sicangziti.png
@@ -230,7 +223,7 @@
 
 
 - taxonomy: 影音
-  icon: fas fa-film fa-lg
+  icon: fas fa-film
   list:
     - term: Podcast
       links:
@@ -246,61 +239,51 @@
           url: https://amachamusic.chagasi.com/
           description: 甘茶の音楽工房
 
-      links:
         - title: フリー効果音素材 くらげ工匠
           logo: 
           url: http://www.kurage-kosho.info/
           description: フリー効果音素材 くらげ工匠
 
-      links:
         - title: 効果音ラボ
           logo: 
           url: https://soundeffect-lab.info/
           description: 効果音ラボ
 
-      links:
         - title: 小森平的免费下载音效
           logo: 
           url: https://taira-komori.jpn.org/freesoundcn.html
           description: 小森平的免费下载音效
           
-      links:
         - title: 魔王魂
           logo: 
           url: https://maou.audio/
           description: 魔王魂
 
-      links:
         - title: DOVA-SYNDROME
           logo: 
           url: https://dova-s.jp/
           description: DOVA-SYNDROME
 
-      links:
         - title: generative.fm
           logo: 
           url: https://play.generative.fm/browse
           description: generative.fm
           
-      links:
         - title: coverr.co
           logo: 
           url: https://coverr.co/free-stock-music
           description: coverr.co
 
-      links:
         - title: mixkit.co
           logo: 
           url: https://mixkit.co/free-stock-music/
           description: mixkit.co
 
-      links:
         - title: dust-sounds
           logo: 
           url: http://dust-sounds.com/
           description: dust-sounds
 
-      links:
         - title: 一起听歌吧
           logo: 
           url: https://music.alang.run/
@@ -354,27 +337,27 @@
           logo: 
           url: https://classic.minecraft.net
           description: Minecraft在线玩
-      links:
+          
         - title: biomes.gg
           logo: 
           url: https://biomes.gg
           description: sanbox游戏
-      links:
+          
         - title: 在线玩DOS游戏
           logo: 
           url: https://dos.lol/
           description: 在线玩DOS游戏
-      links:
+          
         - title: 经典游戏在线玩
           logo: 
           url: https://zaixianwan.app/
           description: 红白机经典游戏在线玩
-      links:
+          
         - title: yikm.net
           logo: 
           url: https://www.yikm.net/
           description: 红白机经典游戏在线玩
-      links:
+          
         - title: flysheep资源避难所
           logo: 
           url: https://www.flysheep6.com/
@@ -382,10 +365,8 @@
 
 
 
-
-
 - taxonomy: 有趣网站
-  icon: far fa-folder-open fa-lg
+  icon: far fa-folder-open
   list:
     - term: 有趣网站
       links:
@@ -394,45 +375,40 @@
           url: https://radiooooo.com/
           description: 欣赏各个地方各个年代的流行音乐
 
-      links:
         - title: Poolsuite
           logo: 
           url: https://poolsuite.net/
           description: 复古电台
 
-      links:
         - title: Theuselessweb
           logo: 
           url: https://theuselessweb.com/
           description: 随机跳转网站
 
-      links:
         - title: Cube
           logo: 
           url: https://iamthecu.be/
           description: 在线三阶魔方
 
-      links:
         - title: Incredibox
           logo: 
           url: https://www.incredibox.com/
           description: 奇妙的在线混音和声网站
 
-      links:
         - title: learningmusic
           logo: 
           url: https://learningmusic.ableton.com/zh-Hans/
           description: 电子音乐零基础教学
 
-      links:
         - title: 有趣的网站
           logo: 
           url: http://guozhivip.com/lab/
           description: 果汁导航（有趣的网站）
 
 
+
 - taxonomy: その他
-  icon: far fa-folder-open fa-lg
+  icon: far fa-folder-open
   list:
     - term: その他
       links:
@@ -444,7 +420,7 @@
 
 
 - taxonomy: 素材资源
-  icon: far fa-folder-open fa-lg
+  icon: far fa-folder-open
   list:
     - term: 图标素材
       links:
@@ -453,7 +429,6 @@
           url: https://www.iconshock.com/svg-icons/
           description: 变色图标
 
-      links:
         - title: Iconsfeed
           logo: iconsfeed.png
           url: http://www.iconsfeed.com/
@@ -464,7 +439,6 @@
           url: http://iosicongallery.com/
           description: Showcasing beautiful icon designs from the iOS App Store.
 
-      links:
         - title: freepik
           logo: freepik.png
           url: https://www.freepik.com/
@@ -486,5 +460,3 @@
           url: http://sicangziti.com/
           logo: sicangziti.png
           description: 优质字体免费下载站。
-          
-  
