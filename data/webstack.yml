@@ -115,7 +115,13 @@
         - title: AI生成二次元图片
           logo: 
           url: https://tools.miku.ac/novelai/
-          description: 照片转化 3D、卡通、线稿、动漫、电影等无限种艺术风格，还可以修复老照片
+          description: 二次元图片生成
+        
+        - title: AI生成图案手绘涂鸦视频
+          logo: 
+          url: https://paintsundo.com/
+          description: PaintsUndo -人工智能生成图像的绘画过程
+          
 
     - term: AI视频工具
       links:
