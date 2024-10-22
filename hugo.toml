@@ -8,6 +8,7 @@ hasCJKLanguage        = true
 publishDir            = "public"
 
 [params]
+    homeurl       = "https://www.grapehut.us.kg/"
     author        = "小饅頭の部屋"
     description   = "小饅頭の部屋"
     upload        = ""
