@@ -36,10 +36,10 @@ publishDir            = "public"
     favicon           = "./assets/images/favicon.svg"
     searchImageL      = "./assets/images/home-bg.jpg"               # 搜索部分浅色背景图
     searchImageD      = "./assets/images/home-bg.jpg"               # 搜索部分深色背景图
-    logoExpandLight   = "./assets/images/favicon.svg"
-    logoExpandDark    = "./assets/images/favicon.svg"
-    logoCollapseLight = "./assets/images/favicon.svg"
-    logoCollapseDark  = "./assets/images/favicon.svg"
+    logoExpandLight   = "./assets/images/favicon.png"
+    logoExpandDark    = "./assets/images/favicon.png"
+    logoCollapseLight = "./assets/images/favicon.png"
+    logoCollapseDark  = "./assets/images/favicon.png"
 
 [markup.goldmark.renderer]
     unsafe = true
