@@ -134,7 +134,13 @@
           logo: iconsfeed.png
           url: http://www.iconsfeed.com/
           description: iOS icons gallery.
-
+    
+    - term: AI音频工具
+      links:
+        - title: Vocal Remover
+          logo: 
+          url: https://vocalremover.org/
+          description: Vocal Remover 强大的人声分离工具，在线完全免费使用！
 
 
 - taxonomy: 站长百宝箱
