@@ -179,6 +179,11 @@
           logo: 
           url: https://vercel.com/
           description: 支持 Node.js SSR  
+
+        - title: kinsta
+          logo: 
+          url: https://my.kinsta.com/
+          description: 支持 Node.js SSR            
       
         - title: northflank
           logo: 
