@@ -165,6 +165,21 @@
 
     - term: VPS関連
       links:
+        - title: cloudflare
+          logo: 
+          url: https://www.cloudflare.com/
+          description: 支持 Node.js SSR
+
+        - title: netlify
+          logo: 
+          url: https://www.netlify.com/
+          description: 支持 Node.js SSR
+
+        - title: vercel
+          logo: 
+          url: https://vercel.com/
+          description: 支持 Node.js SSR  
+      
         - title: northflank
           logo: 
           url: https://northflank.com/
@@ -180,10 +195,6 @@
           url: https://glitch.com/
           description: glitch 可Docker
 
-        - title: vercel
-          logo: 
-          url: https://vercel.com/login
-          description: vercel
 
     - term: 搜索空间
       links:
