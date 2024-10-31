@@ -183,7 +183,13 @@
         - title: kinsta
           logo: 
           url: https://my.kinsta.com/
-          description: 支持 Node.js SSR            
+          description: 支持 Node.js SSR
+
+        - title: Deno Deploy
+          logo: 
+          url: https://dash.deno.com/
+          description: 支持 Node.js SSR
+          
       
         - title: northflank
           logo: 
