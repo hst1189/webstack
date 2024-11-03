@@ -142,6 +142,13 @@
           url: https://vocalremover.org/
           description: Vocal Remover 强大的人声分离工具，在线完全免费使用！
 
+        - title: kotoba-whisper-v2.1
+          logo: 
+          url: https://huggingface.co/kotoba-tech/kotoba-whisper-v2.1
+          description: 日本語特化文字起こし
+
+          
+
 
 - taxonomy: 站长百宝箱
   icon: fas fa-box
