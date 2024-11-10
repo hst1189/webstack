@@ -84,6 +84,18 @@
           logo: 
           url: https://openart.ai/
           description: ComfyUI工作流
+
+        - title: podlm.ai
+          logo: 
+          url: https://podlm.ai/
+          description: podlm.ai
+
+        - title: NotebookLM
+          logo: 
+          url: https://notebooklm.google/
+          description: NotebookLM
+          
+          
             
     - term: AI图片工具
       links:
