@@ -22,12 +22,16 @@
       logo: youtube.png
       url: https://www.youtube.com/@bulianglin/videos
       description: youtube技术博主
+    
+    - title: 小浪的精明生活
+      logo: youtube.png
+      url: https://www.youtube.com/@xiaolang/videos
+      description: youtube技术博主
       
     - title: 玄离199
       logo: youtube.png
       url: https://www.youtube.com/@XuanLi199/videos
       description: youtube技术博主
-
 
 
 - taxonomy: AI new!
