@@ -42,6 +42,12 @@
       logo: youtube.png
       url: https://www.youtube.com/@XuanLi199/videos
       description: youtube技术博主
+    
+    - title: メンタエクセル
+      logo: youtube.png
+      url: https://www.youtube.com/@%E3%83%A1%E3%83%B3%E3%82%BF%E3%82%A8%E3%82%AF%E3%82%BB%E3%83%AB/videos
+      description: Excel
+      
 
 
 - taxonomy: AI new!
