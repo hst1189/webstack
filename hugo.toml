@@ -1,4 +1,4 @@
-baseurl               = "https://webstack.grapehut.us.kg/"
+baseurl               = "https://webstack.grapehut.xyz/"
 languageCode          = "zh-CN"
 title                 = "小饅頭の部屋"
 theme                 = "WebStack-Hugo-theme"
@@ -8,7 +8,7 @@ hasCJKLanguage        = true
 publishDir            = "public"
 
 [params]
-    homeurl       = "https://webstack.grapehut.us.kg/"
+    homeurl       = "https://webstack.grapehut.xyz/"
     author        = "小饅頭の部屋"
     description   = "小饅頭の部屋"
     upload        = ""
@@ -45,4 +45,4 @@ publishDir            = "public"
     unsafe = true
 
 [params.footer]
-    copyright = 'Copyright © ～{year} [小饅頭の部屋](https://www.grapehut.us.kg) <br>[萌ICP备20241189号](https://icp.gov.moe/?keyword=20241189) | Power By [WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo)'
+    copyright = 'Copyright © 2024～{year} [小饅頭の部屋](https://www.grapehut.xyz) <br>[萌ICP备20241189号](https://icp.gov.moe/?keyword=20241189) | Power By [WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo)'
