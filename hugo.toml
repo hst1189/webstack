@@ -33,13 +33,13 @@ publishDir            = "public"
     key = "085791e805a24491b43b06cf58ab31e7"
 
 [params.images]
-    favicon           = "./assets/images/favicon.svg"
+    favicon           = "./assets/images/avatar.png"
     searchImageL      = "./assets/images/home-bg.jpg"               # 搜索部分浅色背景图
     searchImageD      = "./assets/images/home-bg.jpg"               # 搜索部分深色背景图
-    logoExpandLight   = "./assets/images/favicon.png"
-    logoExpandDark    = "./assets/images/favicon.png"
-    logoCollapseLight = "./assets/images/favicon.png"
-    logoCollapseDark  = "./assets/images/favicon.png"
+    logoExpandLight   = "./assets/images/avatar.png"
+    logoExpandDark    = "./assets/images/avatar.png"
+    logoCollapseLight = "./assets/images/avatar.png"
+    logoCollapseDark  = "./assets/images/avatar.png"
 
 [markup.goldmark.renderer]
     unsafe = true
