@@ -1,6 +1,6 @@
 baseurl               = "https://webstack.grapehut.xyz/"
 languageCode          = "zh-CN"
-title                 = "小饅頭の部屋"
+title                 = "小饅頭のWeb收藏"
 theme                 = "WebStack-Hugo-theme"
 preserveTaxonomyNames = true
 disablePathToLower    = true
@@ -9,13 +9,13 @@ publishDir            = "public"
 
 [params]
     homeurl       = "https://webstack.grapehut.xyz/"
-    author        = "小饅頭の部屋"
-    description   = "小饅頭の部屋"
+    author        = "小饅頭のWeb收藏"
+    description   = "小饅頭のWeb收藏"
     upload        = ""
     about         = ""                                     # 左侧导航栏的"关于我们"页面(./about)
     repository    = ""
     enablePreLoad = true                                   # 网站完全打开前预加载动画
-    textPreLoad   = "小饅頭の部屋 Loading..."               # 预加载的动画文字, 只有当enablePreLoad=true时生效
+    textPreLoad   = "小饅頭のWeb收藏 Loading..."            # 预加载的动画文字, 只有当enablePreLoad=true时生效
     expandSidebar = true                                   # 默认展开左侧边导航栏
     logosPath     = "./assets/logos"                       # 网站每个导航地址logo存放地址
     defaultLogo   = "./assets/logos/FindIcons.png"         # logo图片资源不存在或者错误时, 默认显示的logo; 该参数如为空,将会一直加载对应的logo,直至成功
@@ -45,4 +45,4 @@ publishDir            = "public"
     unsafe = true
 
 [params.footer]
-    copyright = 'Copyright © 2024～{year} [小饅頭の部屋](https://www.grapehut.xyz) <br>[萌ICP备20241189号](https://icp.gov.moe/?keyword=20241189) | Power By [WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo)'
+    copyright = 'Copyright © 2024～{year} [小饅頭の部屋](https://www.grapehut.xyz) All Rights Reserved ·<br>[萌ICP备20241189号](https://icp.gov.moe/?keyword=20241189)  · Powered by [WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo)'
