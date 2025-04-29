@@ -1,6 +1,6 @@
-baseurl               = "https://webstack.grapehut.xyz/"
+baseurl               = "https://webstack.grapehut.dpdns.org/"
 languageCode          = "zh-CN"
-title                 = "小饅頭のWeb收藏"
+title                 = "小饅頭の网站收藏"
 theme                 = "WebStack-Hugo-theme"
 preserveTaxonomyNames = true
 disablePathToLower    = true
@@ -8,14 +8,14 @@ hasCJKLanguage        = true
 publishDir            = "public"
 
 [params]
-    homeurl       = "https://webstack.grapehut.xyz/"
-    author        = "小饅頭のWeb收藏"
-    description   = "小饅頭のWeb收藏"
+    homeurl       = "https://webstack.grapehut.dpdns.org/"
+    author        = "小饅頭の网站收藏"
+    description   = "小饅頭の网站收藏"
     upload        = ""
     about         = ""                                     # 左侧导航栏的"关于我们"页面(./about)
     repository    = ""
     enablePreLoad = true                                   # 网站完全打开前预加载动画
-    textPreLoad   = "小饅頭のWeb收藏 Loading..."            # 预加载的动画文字, 只有当enablePreLoad=true时生效
+    textPreLoad   = "小饅頭の网站收藏 Loading..."            # 预加载的动画文字, 只有当enablePreLoad=true时生效
     expandSidebar = true                                   # 默认展开左侧边导航栏
     logosPath     = "./assets/logos"                       # 网站每个导航地址logo存放地址
     defaultLogo   = "./assets/logos/FindIcons.png"         # logo图片资源不存在或者错误时, 默认显示的logo; 该参数如为空,将会一直加载对应的logo,直至成功
